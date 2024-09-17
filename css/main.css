@@ -1,0 +1,107 @@
+/* main rules */
+
+@media (max-width: 1200px) {
+    .hero_main-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero_main-info--text {
+        margin-top: 30px;
+    }
+
+}
+
+:root {
+    --text-color-main: #000000;
+    --text-color-secondary: #FFFFFF ;
+}
+
+a {
+    color: var(--text-color-main);
+    text-decoration: none;
+}
+
+.btn {
+    padding: 18px 75px 18px 75px;
+    background-color: #000;
+    color: var(--text-color-secondary);
+    border-radius: 120px;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: var(--text-color-secondary);
+}
+
+/* header rules */
+
+.header_text h1 {
+    font-size: 128px;
+    text-align: center;
+    margin-top: 350px;
+    font-family: "Istok Web", system-ui;
+}
+
+.header_btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.header_arrow {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* hero rules */
+
+.hero {
+    margin-top: 248px;
+}
+
+.hero_top h2 {
+    font-family: "Istok Web", system-ui;
+    font-size: 64px;
+    font-weight: 500;   
+}
+
+.hero_main-info--text {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.social_icon {
+    width: 40px;
+    padding-right: 8px;
+}
+
+.about_me-p {
+    margin-top: 30px;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    line-height: 24.5px;
+    font-size: 15px;
+    border: 1px solid #000000;
+    border-radius: 60px;
+}
+
+/* project */
+
+.projects {
+    margin-top: 150px;
+}
+
+.projects_cards {
+    margin-top: 30px;
+}
+
+.project1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+
+}
